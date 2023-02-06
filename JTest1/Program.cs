@@ -15,10 +15,10 @@ namespace jkghtest
 
             Console.WriteLine("Step 2. checking a change after pullin from github to local pc");
 
-            //Console.ReadKey(); //developer-talk.tistory.com/320
-            Console.WriteLine("Push any key, please");
-            ConsoleKeyInfo keyInfo = Console.ReadKey();
-            Console.WriteLine("What is Key?: " + keyInfo.Key);
+            ////Console.ReadKey(); //developer-talk.tistory.com/320
+            //Console.WriteLine("Push any key, please");
+            //ConsoleKeyInfo keyInfo = Console.ReadKey();
+            //Console.WriteLine("What is Key?: " + keyInfo.Key);
 
             using (System.IO.StreamWriter file = new System.IO.StreamWriter(@"test.csv"))
             {
