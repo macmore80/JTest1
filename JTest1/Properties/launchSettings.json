@@ -1,0 +1,8 @@
+{
+  "profiles": {
+    "JTest1": {
+      "commandName": "Project",
+      "commandLineArgs": "Start Test"
+    }
+  }
+}
